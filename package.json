@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack",
-    "serve": "parallel ::: 'webpack -w' 'hs'"
+    "serve": "parallel ::: 'webpack -dw' 'hs'"
   },
   "devDependencies": {
     "http-server": "^0.9.0",
