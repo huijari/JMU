@@ -1,0 +1,45 @@
+body {
+  color: #333;
+  font-family: Roboto;
+  margin: 0;
+
+  --primary: #4CAF50;
+  --darkPrimary: #388E3C;
+  --accent: #448AFF;
+  --shadow: 0 2px 4px rgba(0,0,0,.1);
+}
+
+.Navbar {
+  background: var(--primary);
+  display: flex;
+  justify-content: space-around;
+}
+
+.NavbarLink {
+  color: #fff;
+  padding: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.NavbarLink.active {
+  background: var(--darkPrimary);
+}
+
+.Section {
+  flex: 1;
+  padding: 16px;
+}
+
+.Shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.Topbar {
+  background: var(--primary);
+  box-shadow: var(--shadow);
+  color: #fff;
+  letter-spacing: 2px;
+  padding: 8px 16px;
+}
