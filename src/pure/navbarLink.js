@@ -1,10 +1,10 @@
 import h from 'inferno-hyperscript';
 
-import Label from './label';
+import Span from './span';
 
 const NavbarLink = (name, href, active) => h('a.NavbarLink', {
   href,
   className: active ? 'active' : ''
-}, Label(name));
+}, Span(name));
 
 export default NavbarLink;
