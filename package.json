@@ -6,10 +6,12 @@
   "author": "Huijari",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "serve": "parallel ::: 'webpack -w' 'hs'"
   },
   "devDependencies": {
-    "webpack": "^1.13.3"
+    "http-server": "^0.9.0",
+    "webpack": "2.1.0-beta.25"
   },
   "dependencies": {
     "inferno": "beta24",
