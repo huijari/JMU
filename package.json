@@ -1,0 +1,19 @@
+{
+  "name": "jmu",
+  "version": "1.0.0",
+  "description": "Jenkins Mobile UI",
+  "main": "index.js",
+  "author": "Huijari",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.3"
+  },
+  "dependencies": {
+    "inferno": "beta24",
+    "inferno-hyperscript": "beta24",
+    "most": "^1.1.1"
+  }
+}
