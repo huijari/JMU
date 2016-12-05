@@ -9,6 +9,17 @@ body {
   --shadow: 0 2px 4px rgba(0,0,0,.1);
 }
 
+.Input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+.Input input {
+  border: 1px solid #aaa;
+  margin-top: 4px;
+  padding: 4px;
+}
+
 .Navbar {
   background: var(--primary);
   display: flex;
@@ -27,6 +38,11 @@ body {
 
 .Section {
   flex: 1;
+}
+
+.Settings {
+  display: flex;
+  flex-direction: column;
   padding: 16px;
 }
 
