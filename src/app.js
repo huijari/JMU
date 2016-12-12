@@ -7,5 +7,7 @@ import Settings from './impure/settings';
 import Shell from './pure/shell';
 
 const render = vdom => Inferno.render(vdom, document.querySelector('div'));
-Router.observe(view => render(Shell(view())));
-render(Shell(Settings()));
+const settings = Settings();
+Shell(settings)
+  .vtree$
+  .observe(render);
